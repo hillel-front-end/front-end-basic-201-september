@@ -35,11 +35,12 @@
 + внешний отступ 
 + сss свойство Display 
 
-## lection_5_css_background, overflow,  opacity, practice
+## lection_5_css_background, overflow,  opacity, practice, бем
 + специфичность селекторов
 + background
 + overflow
 + opacity
++ бем
 
 ## lection_6_css_float, position, prefixes
 + float
