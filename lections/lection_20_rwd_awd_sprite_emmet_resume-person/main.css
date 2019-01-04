@@ -1,0 +1,11 @@
+.sprite {
+  width: 200px;
+  height: 157px;
+  background: url(sprite.png);
+  background-position: -4px 0px;
+  margin-bottom: 30px; }
+  .sprite:nth-child(2) {
+    background-position-y: -192px;
+    background-position-x: -200px; }
+
+/*# sourceMappingURL=main.css.map */

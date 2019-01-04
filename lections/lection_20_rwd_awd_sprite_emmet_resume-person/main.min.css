@@ -1,0 +1,1 @@
+body{background-color:#000}.sprite-block{width:50px;height:39px;background:url(sprite.css.svg);margin:auto;border:1px solid #fff;background-position:3px 0;transition:all 4s ease}.sprite-block:nth-child(3){background-position:3px -78px}.sprite-block:nth-child(2){background-position:3px -115px}

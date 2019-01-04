@@ -1,0 +1,20 @@
+body
+    display: flex
+    flex-wrap: wrap
+.sprite
+    display: block
+    width: 200px
+    height: 154px
+    background: url(../sprite.png)
+    background-position: 0 0
+    transition: all 1s ease
+    @for $i from 1 through 1000
+        @if $i < 3
+            &:nth-child(#{$i + 1})
+                background-position-y: -192px*$i
+                background-position-x: -200px*$i
+        @else
+            &:nth-child(#{$i + 1})
+                display: none
+
+

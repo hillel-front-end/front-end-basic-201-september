@@ -11,6 +11,7 @@
 + тег hr + атрибуты
 
 ## lection_2_html_deep + practice
++ понятие семантики
 + теги div, span и их применение
 + ссылки
 + изображение 
@@ -28,32 +29,64 @@
 + размер шрифта
 + работа с высотой и шириной тега
 
-## lection_4_css_box_model + practice
+## lection_4_css + box_model + practice
 + border тега
 + внутренний отступ 
 + внешний отступ 
-+ сss свойство Display
++ сss свойство Display 
 
-## lection_5_css_background_overflow_opacity + practice
+## lection_5_css_background, overflow,  opacity, practice
++ специфичность селекторов
 + background
 + overflow
 + opacity
 
-## lection_6_css_float_inline-block_position
+## lection_6_css_float, position, prefixes
 + float
-+ inline-block
 + position
++ prefixes
 
-
-## lection_7_css_pseudo-class_pseudo-element_transition_visibility + practice
+## lection_7_css_pseudo-class, pseudo-element, visibility , transition + practice
 + псевдоклассы
 + псевдоэлементы
-+ анимации с transition
 + visibility
++ анимации с transition
 
 ## lection_8_css_practice_lesson
-+ coding
++ coding site  verty(float, position)
+
+##lection_009_ media_query, flex-box 
++ flex-box
++ media_query
+
+##lection_010_ SASS + practice
++ import
++ nesting
++ variables
++ mixins + mixins with params
+
+##lection_011_ HTML5, CSS3
++ html5 semantic tags
++ тени
++ трансформации
++ анимации keyframes
+
+##lection_012-014_practice desktop-first
++ верстка desktop, tablet, mobile (sass, flexbox, keyframes)
+
+##lection_015_, min,max, bootstrap
++ min\max-width, min\max-height
++ bootstrap 4
+
+## lection_16_css_forms + practice
++ работа c формами
+
+##lection_017-019-mobile-first practice
+
+##lection_20_rwd_awd, sass_deep + sprites, emmet
++ rwd_awd
++ sass_deep(loop, conditions)
++ sprites
++ emmet
 
 
-## lection_9_css_forms + practice
-+ работа с формами

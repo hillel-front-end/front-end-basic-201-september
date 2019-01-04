@@ -1,0 +1,2015 @@
+body {
+  display: flex;
+  flex-wrap: wrap; }
+
+.sprite {
+  display: block;
+  width: 200px;
+  height: 154px;
+  background: url(../sprite.png);
+  background-position: 0 0;
+  transition: all 1s ease; }
+  .sprite:nth-child(2) {
+    background-position-y: -192px;
+    background-position-x: -200px; }
+  .sprite:nth-child(3) {
+    background-position-y: -384px;
+    background-position-x: -400px; }
+  .sprite:nth-child(4) {
+    display: none; }
+  .sprite:nth-child(5) {
+    display: none; }
+  .sprite:nth-child(6) {
+    display: none; }
+  .sprite:nth-child(7) {
+    display: none; }
+  .sprite:nth-child(8) {
+    display: none; }
+  .sprite:nth-child(9) {
+    display: none; }
+  .sprite:nth-child(10) {
+    display: none; }
+  .sprite:nth-child(11) {
+    display: none; }
+  .sprite:nth-child(12) {
+    display: none; }
+  .sprite:nth-child(13) {
+    display: none; }
+  .sprite:nth-child(14) {
+    display: none; }
+  .sprite:nth-child(15) {
+    display: none; }
+  .sprite:nth-child(16) {
+    display: none; }
+  .sprite:nth-child(17) {
+    display: none; }
+  .sprite:nth-child(18) {
+    display: none; }
+  .sprite:nth-child(19) {
+    display: none; }
+  .sprite:nth-child(20) {
+    display: none; }
+  .sprite:nth-child(21) {
+    display: none; }
+  .sprite:nth-child(22) {
+    display: none; }
+  .sprite:nth-child(23) {
+    display: none; }
+  .sprite:nth-child(24) {
+    display: none; }
+  .sprite:nth-child(25) {
+    display: none; }
+  .sprite:nth-child(26) {
+    display: none; }
+  .sprite:nth-child(27) {
+    display: none; }
+  .sprite:nth-child(28) {
+    display: none; }
+  .sprite:nth-child(29) {
+    display: none; }
+  .sprite:nth-child(30) {
+    display: none; }
+  .sprite:nth-child(31) {
+    display: none; }
+  .sprite:nth-child(32) {
+    display: none; }
+  .sprite:nth-child(33) {
+    display: none; }
+  .sprite:nth-child(34) {
+    display: none; }
+  .sprite:nth-child(35) {
+    display: none; }
+  .sprite:nth-child(36) {
+    display: none; }
+  .sprite:nth-child(37) {
+    display: none; }
+  .sprite:nth-child(38) {
+    display: none; }
+  .sprite:nth-child(39) {
+    display: none; }
+  .sprite:nth-child(40) {
+    display: none; }
+  .sprite:nth-child(41) {
+    display: none; }
+  .sprite:nth-child(42) {
+    display: none; }
+  .sprite:nth-child(43) {
+    display: none; }
+  .sprite:nth-child(44) {
+    display: none; }
+  .sprite:nth-child(45) {
+    display: none; }
+  .sprite:nth-child(46) {
+    display: none; }
+  .sprite:nth-child(47) {
+    display: none; }
+  .sprite:nth-child(48) {
+    display: none; }
+  .sprite:nth-child(49) {
+    display: none; }
+  .sprite:nth-child(50) {
+    display: none; }
+  .sprite:nth-child(51) {
+    display: none; }
+  .sprite:nth-child(52) {
+    display: none; }
+  .sprite:nth-child(53) {
+    display: none; }
+  .sprite:nth-child(54) {
+    display: none; }
+  .sprite:nth-child(55) {
+    display: none; }
+  .sprite:nth-child(56) {
+    display: none; }
+  .sprite:nth-child(57) {
+    display: none; }
+  .sprite:nth-child(58) {
+    display: none; }
+  .sprite:nth-child(59) {
+    display: none; }
+  .sprite:nth-child(60) {
+    display: none; }
+  .sprite:nth-child(61) {
+    display: none; }
+  .sprite:nth-child(62) {
+    display: none; }
+  .sprite:nth-child(63) {
+    display: none; }
+  .sprite:nth-child(64) {
+    display: none; }
+  .sprite:nth-child(65) {
+    display: none; }
+  .sprite:nth-child(66) {
+    display: none; }
+  .sprite:nth-child(67) {
+    display: none; }
+  .sprite:nth-child(68) {
+    display: none; }
+  .sprite:nth-child(69) {
+    display: none; }
+  .sprite:nth-child(70) {
+    display: none; }
+  .sprite:nth-child(71) {
+    display: none; }
+  .sprite:nth-child(72) {
+    display: none; }
+  .sprite:nth-child(73) {
+    display: none; }
+  .sprite:nth-child(74) {
+    display: none; }
+  .sprite:nth-child(75) {
+    display: none; }
+  .sprite:nth-child(76) {
+    display: none; }
+  .sprite:nth-child(77) {
+    display: none; }
+  .sprite:nth-child(78) {
+    display: none; }
+  .sprite:nth-child(79) {
+    display: none; }
+  .sprite:nth-child(80) {
+    display: none; }
+  .sprite:nth-child(81) {
+    display: none; }
+  .sprite:nth-child(82) {
+    display: none; }
+  .sprite:nth-child(83) {
+    display: none; }
+  .sprite:nth-child(84) {
+    display: none; }
+  .sprite:nth-child(85) {
+    display: none; }
+  .sprite:nth-child(86) {
+    display: none; }
+  .sprite:nth-child(87) {
+    display: none; }
+  .sprite:nth-child(88) {
+    display: none; }
+  .sprite:nth-child(89) {
+    display: none; }
+  .sprite:nth-child(90) {
+    display: none; }
+  .sprite:nth-child(91) {
+    display: none; }
+  .sprite:nth-child(92) {
+    display: none; }
+  .sprite:nth-child(93) {
+    display: none; }
+  .sprite:nth-child(94) {
+    display: none; }
+  .sprite:nth-child(95) {
+    display: none; }
+  .sprite:nth-child(96) {
+    display: none; }
+  .sprite:nth-child(97) {
+    display: none; }
+  .sprite:nth-child(98) {
+    display: none; }
+  .sprite:nth-child(99) {
+    display: none; }
+  .sprite:nth-child(100) {
+    display: none; }
+  .sprite:nth-child(101) {
+    display: none; }
+  .sprite:nth-child(102) {
+    display: none; }
+  .sprite:nth-child(103) {
+    display: none; }
+  .sprite:nth-child(104) {
+    display: none; }
+  .sprite:nth-child(105) {
+    display: none; }
+  .sprite:nth-child(106) {
+    display: none; }
+  .sprite:nth-child(107) {
+    display: none; }
+  .sprite:nth-child(108) {
+    display: none; }
+  .sprite:nth-child(109) {
+    display: none; }
+  .sprite:nth-child(110) {
+    display: none; }
+  .sprite:nth-child(111) {
+    display: none; }
+  .sprite:nth-child(112) {
+    display: none; }
+  .sprite:nth-child(113) {
+    display: none; }
+  .sprite:nth-child(114) {
+    display: none; }
+  .sprite:nth-child(115) {
+    display: none; }
+  .sprite:nth-child(116) {
+    display: none; }
+  .sprite:nth-child(117) {
+    display: none; }
+  .sprite:nth-child(118) {
+    display: none; }
+  .sprite:nth-child(119) {
+    display: none; }
+  .sprite:nth-child(120) {
+    display: none; }
+  .sprite:nth-child(121) {
+    display: none; }
+  .sprite:nth-child(122) {
+    display: none; }
+  .sprite:nth-child(123) {
+    display: none; }
+  .sprite:nth-child(124) {
+    display: none; }
+  .sprite:nth-child(125) {
+    display: none; }
+  .sprite:nth-child(126) {
+    display: none; }
+  .sprite:nth-child(127) {
+    display: none; }
+  .sprite:nth-child(128) {
+    display: none; }
+  .sprite:nth-child(129) {
+    display: none; }
+  .sprite:nth-child(130) {
+    display: none; }
+  .sprite:nth-child(131) {
+    display: none; }
+  .sprite:nth-child(132) {
+    display: none; }
+  .sprite:nth-child(133) {
+    display: none; }
+  .sprite:nth-child(134) {
+    display: none; }
+  .sprite:nth-child(135) {
+    display: none; }
+  .sprite:nth-child(136) {
+    display: none; }
+  .sprite:nth-child(137) {
+    display: none; }
+  .sprite:nth-child(138) {
+    display: none; }
+  .sprite:nth-child(139) {
+    display: none; }
+  .sprite:nth-child(140) {
+    display: none; }
+  .sprite:nth-child(141) {
+    display: none; }
+  .sprite:nth-child(142) {
+    display: none; }
+  .sprite:nth-child(143) {
+    display: none; }
+  .sprite:nth-child(144) {
+    display: none; }
+  .sprite:nth-child(145) {
+    display: none; }
+  .sprite:nth-child(146) {
+    display: none; }
+  .sprite:nth-child(147) {
+    display: none; }
+  .sprite:nth-child(148) {
+    display: none; }
+  .sprite:nth-child(149) {
+    display: none; }
+  .sprite:nth-child(150) {
+    display: none; }
+  .sprite:nth-child(151) {
+    display: none; }
+  .sprite:nth-child(152) {
+    display: none; }
+  .sprite:nth-child(153) {
+    display: none; }
+  .sprite:nth-child(154) {
+    display: none; }
+  .sprite:nth-child(155) {
+    display: none; }
+  .sprite:nth-child(156) {
+    display: none; }
+  .sprite:nth-child(157) {
+    display: none; }
+  .sprite:nth-child(158) {
+    display: none; }
+  .sprite:nth-child(159) {
+    display: none; }
+  .sprite:nth-child(160) {
+    display: none; }
+  .sprite:nth-child(161) {
+    display: none; }
+  .sprite:nth-child(162) {
+    display: none; }
+  .sprite:nth-child(163) {
+    display: none; }
+  .sprite:nth-child(164) {
+    display: none; }
+  .sprite:nth-child(165) {
+    display: none; }
+  .sprite:nth-child(166) {
+    display: none; }
+  .sprite:nth-child(167) {
+    display: none; }
+  .sprite:nth-child(168) {
+    display: none; }
+  .sprite:nth-child(169) {
+    display: none; }
+  .sprite:nth-child(170) {
+    display: none; }
+  .sprite:nth-child(171) {
+    display: none; }
+  .sprite:nth-child(172) {
+    display: none; }
+  .sprite:nth-child(173) {
+    display: none; }
+  .sprite:nth-child(174) {
+    display: none; }
+  .sprite:nth-child(175) {
+    display: none; }
+  .sprite:nth-child(176) {
+    display: none; }
+  .sprite:nth-child(177) {
+    display: none; }
+  .sprite:nth-child(178) {
+    display: none; }
+  .sprite:nth-child(179) {
+    display: none; }
+  .sprite:nth-child(180) {
+    display: none; }
+  .sprite:nth-child(181) {
+    display: none; }
+  .sprite:nth-child(182) {
+    display: none; }
+  .sprite:nth-child(183) {
+    display: none; }
+  .sprite:nth-child(184) {
+    display: none; }
+  .sprite:nth-child(185) {
+    display: none; }
+  .sprite:nth-child(186) {
+    display: none; }
+  .sprite:nth-child(187) {
+    display: none; }
+  .sprite:nth-child(188) {
+    display: none; }
+  .sprite:nth-child(189) {
+    display: none; }
+  .sprite:nth-child(190) {
+    display: none; }
+  .sprite:nth-child(191) {
+    display: none; }
+  .sprite:nth-child(192) {
+    display: none; }
+  .sprite:nth-child(193) {
+    display: none; }
+  .sprite:nth-child(194) {
+    display: none; }
+  .sprite:nth-child(195) {
+    display: none; }
+  .sprite:nth-child(196) {
+    display: none; }
+  .sprite:nth-child(197) {
+    display: none; }
+  .sprite:nth-child(198) {
+    display: none; }
+  .sprite:nth-child(199) {
+    display: none; }
+  .sprite:nth-child(200) {
+    display: none; }
+  .sprite:nth-child(201) {
+    display: none; }
+  .sprite:nth-child(202) {
+    display: none; }
+  .sprite:nth-child(203) {
+    display: none; }
+  .sprite:nth-child(204) {
+    display: none; }
+  .sprite:nth-child(205) {
+    display: none; }
+  .sprite:nth-child(206) {
+    display: none; }
+  .sprite:nth-child(207) {
+    display: none; }
+  .sprite:nth-child(208) {
+    display: none; }
+  .sprite:nth-child(209) {
+    display: none; }
+  .sprite:nth-child(210) {
+    display: none; }
+  .sprite:nth-child(211) {
+    display: none; }
+  .sprite:nth-child(212) {
+    display: none; }
+  .sprite:nth-child(213) {
+    display: none; }
+  .sprite:nth-child(214) {
+    display: none; }
+  .sprite:nth-child(215) {
+    display: none; }
+  .sprite:nth-child(216) {
+    display: none; }
+  .sprite:nth-child(217) {
+    display: none; }
+  .sprite:nth-child(218) {
+    display: none; }
+  .sprite:nth-child(219) {
+    display: none; }
+  .sprite:nth-child(220) {
+    display: none; }
+  .sprite:nth-child(221) {
+    display: none; }
+  .sprite:nth-child(222) {
+    display: none; }
+  .sprite:nth-child(223) {
+    display: none; }
+  .sprite:nth-child(224) {
+    display: none; }
+  .sprite:nth-child(225) {
+    display: none; }
+  .sprite:nth-child(226) {
+    display: none; }
+  .sprite:nth-child(227) {
+    display: none; }
+  .sprite:nth-child(228) {
+    display: none; }
+  .sprite:nth-child(229) {
+    display: none; }
+  .sprite:nth-child(230) {
+    display: none; }
+  .sprite:nth-child(231) {
+    display: none; }
+  .sprite:nth-child(232) {
+    display: none; }
+  .sprite:nth-child(233) {
+    display: none; }
+  .sprite:nth-child(234) {
+    display: none; }
+  .sprite:nth-child(235) {
+    display: none; }
+  .sprite:nth-child(236) {
+    display: none; }
+  .sprite:nth-child(237) {
+    display: none; }
+  .sprite:nth-child(238) {
+    display: none; }
+  .sprite:nth-child(239) {
+    display: none; }
+  .sprite:nth-child(240) {
+    display: none; }
+  .sprite:nth-child(241) {
+    display: none; }
+  .sprite:nth-child(242) {
+    display: none; }
+  .sprite:nth-child(243) {
+    display: none; }
+  .sprite:nth-child(244) {
+    display: none; }
+  .sprite:nth-child(245) {
+    display: none; }
+  .sprite:nth-child(246) {
+    display: none; }
+  .sprite:nth-child(247) {
+    display: none; }
+  .sprite:nth-child(248) {
+    display: none; }
+  .sprite:nth-child(249) {
+    display: none; }
+  .sprite:nth-child(250) {
+    display: none; }
+  .sprite:nth-child(251) {
+    display: none; }
+  .sprite:nth-child(252) {
+    display: none; }
+  .sprite:nth-child(253) {
+    display: none; }
+  .sprite:nth-child(254) {
+    display: none; }
+  .sprite:nth-child(255) {
+    display: none; }
+  .sprite:nth-child(256) {
+    display: none; }
+  .sprite:nth-child(257) {
+    display: none; }
+  .sprite:nth-child(258) {
+    display: none; }
+  .sprite:nth-child(259) {
+    display: none; }
+  .sprite:nth-child(260) {
+    display: none; }
+  .sprite:nth-child(261) {
+    display: none; }
+  .sprite:nth-child(262) {
+    display: none; }
+  .sprite:nth-child(263) {
+    display: none; }
+  .sprite:nth-child(264) {
+    display: none; }
+  .sprite:nth-child(265) {
+    display: none; }
+  .sprite:nth-child(266) {
+    display: none; }
+  .sprite:nth-child(267) {
+    display: none; }
+  .sprite:nth-child(268) {
+    display: none; }
+  .sprite:nth-child(269) {
+    display: none; }
+  .sprite:nth-child(270) {
+    display: none; }
+  .sprite:nth-child(271) {
+    display: none; }
+  .sprite:nth-child(272) {
+    display: none; }
+  .sprite:nth-child(273) {
+    display: none; }
+  .sprite:nth-child(274) {
+    display: none; }
+  .sprite:nth-child(275) {
+    display: none; }
+  .sprite:nth-child(276) {
+    display: none; }
+  .sprite:nth-child(277) {
+    display: none; }
+  .sprite:nth-child(278) {
+    display: none; }
+  .sprite:nth-child(279) {
+    display: none; }
+  .sprite:nth-child(280) {
+    display: none; }
+  .sprite:nth-child(281) {
+    display: none; }
+  .sprite:nth-child(282) {
+    display: none; }
+  .sprite:nth-child(283) {
+    display: none; }
+  .sprite:nth-child(284) {
+    display: none; }
+  .sprite:nth-child(285) {
+    display: none; }
+  .sprite:nth-child(286) {
+    display: none; }
+  .sprite:nth-child(287) {
+    display: none; }
+  .sprite:nth-child(288) {
+    display: none; }
+  .sprite:nth-child(289) {
+    display: none; }
+  .sprite:nth-child(290) {
+    display: none; }
+  .sprite:nth-child(291) {
+    display: none; }
+  .sprite:nth-child(292) {
+    display: none; }
+  .sprite:nth-child(293) {
+    display: none; }
+  .sprite:nth-child(294) {
+    display: none; }
+  .sprite:nth-child(295) {
+    display: none; }
+  .sprite:nth-child(296) {
+    display: none; }
+  .sprite:nth-child(297) {
+    display: none; }
+  .sprite:nth-child(298) {
+    display: none; }
+  .sprite:nth-child(299) {
+    display: none; }
+  .sprite:nth-child(300) {
+    display: none; }
+  .sprite:nth-child(301) {
+    display: none; }
+  .sprite:nth-child(302) {
+    display: none; }
+  .sprite:nth-child(303) {
+    display: none; }
+  .sprite:nth-child(304) {
+    display: none; }
+  .sprite:nth-child(305) {
+    display: none; }
+  .sprite:nth-child(306) {
+    display: none; }
+  .sprite:nth-child(307) {
+    display: none; }
+  .sprite:nth-child(308) {
+    display: none; }
+  .sprite:nth-child(309) {
+    display: none; }
+  .sprite:nth-child(310) {
+    display: none; }
+  .sprite:nth-child(311) {
+    display: none; }
+  .sprite:nth-child(312) {
+    display: none; }
+  .sprite:nth-child(313) {
+    display: none; }
+  .sprite:nth-child(314) {
+    display: none; }
+  .sprite:nth-child(315) {
+    display: none; }
+  .sprite:nth-child(316) {
+    display: none; }
+  .sprite:nth-child(317) {
+    display: none; }
+  .sprite:nth-child(318) {
+    display: none; }
+  .sprite:nth-child(319) {
+    display: none; }
+  .sprite:nth-child(320) {
+    display: none; }
+  .sprite:nth-child(321) {
+    display: none; }
+  .sprite:nth-child(322) {
+    display: none; }
+  .sprite:nth-child(323) {
+    display: none; }
+  .sprite:nth-child(324) {
+    display: none; }
+  .sprite:nth-child(325) {
+    display: none; }
+  .sprite:nth-child(326) {
+    display: none; }
+  .sprite:nth-child(327) {
+    display: none; }
+  .sprite:nth-child(328) {
+    display: none; }
+  .sprite:nth-child(329) {
+    display: none; }
+  .sprite:nth-child(330) {
+    display: none; }
+  .sprite:nth-child(331) {
+    display: none; }
+  .sprite:nth-child(332) {
+    display: none; }
+  .sprite:nth-child(333) {
+    display: none; }
+  .sprite:nth-child(334) {
+    display: none; }
+  .sprite:nth-child(335) {
+    display: none; }
+  .sprite:nth-child(336) {
+    display: none; }
+  .sprite:nth-child(337) {
+    display: none; }
+  .sprite:nth-child(338) {
+    display: none; }
+  .sprite:nth-child(339) {
+    display: none; }
+  .sprite:nth-child(340) {
+    display: none; }
+  .sprite:nth-child(341) {
+    display: none; }
+  .sprite:nth-child(342) {
+    display: none; }
+  .sprite:nth-child(343) {
+    display: none; }
+  .sprite:nth-child(344) {
+    display: none; }
+  .sprite:nth-child(345) {
+    display: none; }
+  .sprite:nth-child(346) {
+    display: none; }
+  .sprite:nth-child(347) {
+    display: none; }
+  .sprite:nth-child(348) {
+    display: none; }
+  .sprite:nth-child(349) {
+    display: none; }
+  .sprite:nth-child(350) {
+    display: none; }
+  .sprite:nth-child(351) {
+    display: none; }
+  .sprite:nth-child(352) {
+    display: none; }
+  .sprite:nth-child(353) {
+    display: none; }
+  .sprite:nth-child(354) {
+    display: none; }
+  .sprite:nth-child(355) {
+    display: none; }
+  .sprite:nth-child(356) {
+    display: none; }
+  .sprite:nth-child(357) {
+    display: none; }
+  .sprite:nth-child(358) {
+    display: none; }
+  .sprite:nth-child(359) {
+    display: none; }
+  .sprite:nth-child(360) {
+    display: none; }
+  .sprite:nth-child(361) {
+    display: none; }
+  .sprite:nth-child(362) {
+    display: none; }
+  .sprite:nth-child(363) {
+    display: none; }
+  .sprite:nth-child(364) {
+    display: none; }
+  .sprite:nth-child(365) {
+    display: none; }
+  .sprite:nth-child(366) {
+    display: none; }
+  .sprite:nth-child(367) {
+    display: none; }
+  .sprite:nth-child(368) {
+    display: none; }
+  .sprite:nth-child(369) {
+    display: none; }
+  .sprite:nth-child(370) {
+    display: none; }
+  .sprite:nth-child(371) {
+    display: none; }
+  .sprite:nth-child(372) {
+    display: none; }
+  .sprite:nth-child(373) {
+    display: none; }
+  .sprite:nth-child(374) {
+    display: none; }
+  .sprite:nth-child(375) {
+    display: none; }
+  .sprite:nth-child(376) {
+    display: none; }
+  .sprite:nth-child(377) {
+    display: none; }
+  .sprite:nth-child(378) {
+    display: none; }
+  .sprite:nth-child(379) {
+    display: none; }
+  .sprite:nth-child(380) {
+    display: none; }
+  .sprite:nth-child(381) {
+    display: none; }
+  .sprite:nth-child(382) {
+    display: none; }
+  .sprite:nth-child(383) {
+    display: none; }
+  .sprite:nth-child(384) {
+    display: none; }
+  .sprite:nth-child(385) {
+    display: none; }
+  .sprite:nth-child(386) {
+    display: none; }
+  .sprite:nth-child(387) {
+    display: none; }
+  .sprite:nth-child(388) {
+    display: none; }
+  .sprite:nth-child(389) {
+    display: none; }
+  .sprite:nth-child(390) {
+    display: none; }
+  .sprite:nth-child(391) {
+    display: none; }
+  .sprite:nth-child(392) {
+    display: none; }
+  .sprite:nth-child(393) {
+    display: none; }
+  .sprite:nth-child(394) {
+    display: none; }
+  .sprite:nth-child(395) {
+    display: none; }
+  .sprite:nth-child(396) {
+    display: none; }
+  .sprite:nth-child(397) {
+    display: none; }
+  .sprite:nth-child(398) {
+    display: none; }
+  .sprite:nth-child(399) {
+    display: none; }
+  .sprite:nth-child(400) {
+    display: none; }
+  .sprite:nth-child(401) {
+    display: none; }
+  .sprite:nth-child(402) {
+    display: none; }
+  .sprite:nth-child(403) {
+    display: none; }
+  .sprite:nth-child(404) {
+    display: none; }
+  .sprite:nth-child(405) {
+    display: none; }
+  .sprite:nth-child(406) {
+    display: none; }
+  .sprite:nth-child(407) {
+    display: none; }
+  .sprite:nth-child(408) {
+    display: none; }
+  .sprite:nth-child(409) {
+    display: none; }
+  .sprite:nth-child(410) {
+    display: none; }
+  .sprite:nth-child(411) {
+    display: none; }
+  .sprite:nth-child(412) {
+    display: none; }
+  .sprite:nth-child(413) {
+    display: none; }
+  .sprite:nth-child(414) {
+    display: none; }
+  .sprite:nth-child(415) {
+    display: none; }
+  .sprite:nth-child(416) {
+    display: none; }
+  .sprite:nth-child(417) {
+    display: none; }
+  .sprite:nth-child(418) {
+    display: none; }
+  .sprite:nth-child(419) {
+    display: none; }
+  .sprite:nth-child(420) {
+    display: none; }
+  .sprite:nth-child(421) {
+    display: none; }
+  .sprite:nth-child(422) {
+    display: none; }
+  .sprite:nth-child(423) {
+    display: none; }
+  .sprite:nth-child(424) {
+    display: none; }
+  .sprite:nth-child(425) {
+    display: none; }
+  .sprite:nth-child(426) {
+    display: none; }
+  .sprite:nth-child(427) {
+    display: none; }
+  .sprite:nth-child(428) {
+    display: none; }
+  .sprite:nth-child(429) {
+    display: none; }
+  .sprite:nth-child(430) {
+    display: none; }
+  .sprite:nth-child(431) {
+    display: none; }
+  .sprite:nth-child(432) {
+    display: none; }
+  .sprite:nth-child(433) {
+    display: none; }
+  .sprite:nth-child(434) {
+    display: none; }
+  .sprite:nth-child(435) {
+    display: none; }
+  .sprite:nth-child(436) {
+    display: none; }
+  .sprite:nth-child(437) {
+    display: none; }
+  .sprite:nth-child(438) {
+    display: none; }
+  .sprite:nth-child(439) {
+    display: none; }
+  .sprite:nth-child(440) {
+    display: none; }
+  .sprite:nth-child(441) {
+    display: none; }
+  .sprite:nth-child(442) {
+    display: none; }
+  .sprite:nth-child(443) {
+    display: none; }
+  .sprite:nth-child(444) {
+    display: none; }
+  .sprite:nth-child(445) {
+    display: none; }
+  .sprite:nth-child(446) {
+    display: none; }
+  .sprite:nth-child(447) {
+    display: none; }
+  .sprite:nth-child(448) {
+    display: none; }
+  .sprite:nth-child(449) {
+    display: none; }
+  .sprite:nth-child(450) {
+    display: none; }
+  .sprite:nth-child(451) {
+    display: none; }
+  .sprite:nth-child(452) {
+    display: none; }
+  .sprite:nth-child(453) {
+    display: none; }
+  .sprite:nth-child(454) {
+    display: none; }
+  .sprite:nth-child(455) {
+    display: none; }
+  .sprite:nth-child(456) {
+    display: none; }
+  .sprite:nth-child(457) {
+    display: none; }
+  .sprite:nth-child(458) {
+    display: none; }
+  .sprite:nth-child(459) {
+    display: none; }
+  .sprite:nth-child(460) {
+    display: none; }
+  .sprite:nth-child(461) {
+    display: none; }
+  .sprite:nth-child(462) {
+    display: none; }
+  .sprite:nth-child(463) {
+    display: none; }
+  .sprite:nth-child(464) {
+    display: none; }
+  .sprite:nth-child(465) {
+    display: none; }
+  .sprite:nth-child(466) {
+    display: none; }
+  .sprite:nth-child(467) {
+    display: none; }
+  .sprite:nth-child(468) {
+    display: none; }
+  .sprite:nth-child(469) {
+    display: none; }
+  .sprite:nth-child(470) {
+    display: none; }
+  .sprite:nth-child(471) {
+    display: none; }
+  .sprite:nth-child(472) {
+    display: none; }
+  .sprite:nth-child(473) {
+    display: none; }
+  .sprite:nth-child(474) {
+    display: none; }
+  .sprite:nth-child(475) {
+    display: none; }
+  .sprite:nth-child(476) {
+    display: none; }
+  .sprite:nth-child(477) {
+    display: none; }
+  .sprite:nth-child(478) {
+    display: none; }
+  .sprite:nth-child(479) {
+    display: none; }
+  .sprite:nth-child(480) {
+    display: none; }
+  .sprite:nth-child(481) {
+    display: none; }
+  .sprite:nth-child(482) {
+    display: none; }
+  .sprite:nth-child(483) {
+    display: none; }
+  .sprite:nth-child(484) {
+    display: none; }
+  .sprite:nth-child(485) {
+    display: none; }
+  .sprite:nth-child(486) {
+    display: none; }
+  .sprite:nth-child(487) {
+    display: none; }
+  .sprite:nth-child(488) {
+    display: none; }
+  .sprite:nth-child(489) {
+    display: none; }
+  .sprite:nth-child(490) {
+    display: none; }
+  .sprite:nth-child(491) {
+    display: none; }
+  .sprite:nth-child(492) {
+    display: none; }
+  .sprite:nth-child(493) {
+    display: none; }
+  .sprite:nth-child(494) {
+    display: none; }
+  .sprite:nth-child(495) {
+    display: none; }
+  .sprite:nth-child(496) {
+    display: none; }
+  .sprite:nth-child(497) {
+    display: none; }
+  .sprite:nth-child(498) {
+    display: none; }
+  .sprite:nth-child(499) {
+    display: none; }
+  .sprite:nth-child(500) {
+    display: none; }
+  .sprite:nth-child(501) {
+    display: none; }
+  .sprite:nth-child(502) {
+    display: none; }
+  .sprite:nth-child(503) {
+    display: none; }
+  .sprite:nth-child(504) {
+    display: none; }
+  .sprite:nth-child(505) {
+    display: none; }
+  .sprite:nth-child(506) {
+    display: none; }
+  .sprite:nth-child(507) {
+    display: none; }
+  .sprite:nth-child(508) {
+    display: none; }
+  .sprite:nth-child(509) {
+    display: none; }
+  .sprite:nth-child(510) {
+    display: none; }
+  .sprite:nth-child(511) {
+    display: none; }
+  .sprite:nth-child(512) {
+    display: none; }
+  .sprite:nth-child(513) {
+    display: none; }
+  .sprite:nth-child(514) {
+    display: none; }
+  .sprite:nth-child(515) {
+    display: none; }
+  .sprite:nth-child(516) {
+    display: none; }
+  .sprite:nth-child(517) {
+    display: none; }
+  .sprite:nth-child(518) {
+    display: none; }
+  .sprite:nth-child(519) {
+    display: none; }
+  .sprite:nth-child(520) {
+    display: none; }
+  .sprite:nth-child(521) {
+    display: none; }
+  .sprite:nth-child(522) {
+    display: none; }
+  .sprite:nth-child(523) {
+    display: none; }
+  .sprite:nth-child(524) {
+    display: none; }
+  .sprite:nth-child(525) {
+    display: none; }
+  .sprite:nth-child(526) {
+    display: none; }
+  .sprite:nth-child(527) {
+    display: none; }
+  .sprite:nth-child(528) {
+    display: none; }
+  .sprite:nth-child(529) {
+    display: none; }
+  .sprite:nth-child(530) {
+    display: none; }
+  .sprite:nth-child(531) {
+    display: none; }
+  .sprite:nth-child(532) {
+    display: none; }
+  .sprite:nth-child(533) {
+    display: none; }
+  .sprite:nth-child(534) {
+    display: none; }
+  .sprite:nth-child(535) {
+    display: none; }
+  .sprite:nth-child(536) {
+    display: none; }
+  .sprite:nth-child(537) {
+    display: none; }
+  .sprite:nth-child(538) {
+    display: none; }
+  .sprite:nth-child(539) {
+    display: none; }
+  .sprite:nth-child(540) {
+    display: none; }
+  .sprite:nth-child(541) {
+    display: none; }
+  .sprite:nth-child(542) {
+    display: none; }
+  .sprite:nth-child(543) {
+    display: none; }
+  .sprite:nth-child(544) {
+    display: none; }
+  .sprite:nth-child(545) {
+    display: none; }
+  .sprite:nth-child(546) {
+    display: none; }
+  .sprite:nth-child(547) {
+    display: none; }
+  .sprite:nth-child(548) {
+    display: none; }
+  .sprite:nth-child(549) {
+    display: none; }
+  .sprite:nth-child(550) {
+    display: none; }
+  .sprite:nth-child(551) {
+    display: none; }
+  .sprite:nth-child(552) {
+    display: none; }
+  .sprite:nth-child(553) {
+    display: none; }
+  .sprite:nth-child(554) {
+    display: none; }
+  .sprite:nth-child(555) {
+    display: none; }
+  .sprite:nth-child(556) {
+    display: none; }
+  .sprite:nth-child(557) {
+    display: none; }
+  .sprite:nth-child(558) {
+    display: none; }
+  .sprite:nth-child(559) {
+    display: none; }
+  .sprite:nth-child(560) {
+    display: none; }
+  .sprite:nth-child(561) {
+    display: none; }
+  .sprite:nth-child(562) {
+    display: none; }
+  .sprite:nth-child(563) {
+    display: none; }
+  .sprite:nth-child(564) {
+    display: none; }
+  .sprite:nth-child(565) {
+    display: none; }
+  .sprite:nth-child(566) {
+    display: none; }
+  .sprite:nth-child(567) {
+    display: none; }
+  .sprite:nth-child(568) {
+    display: none; }
+  .sprite:nth-child(569) {
+    display: none; }
+  .sprite:nth-child(570) {
+    display: none; }
+  .sprite:nth-child(571) {
+    display: none; }
+  .sprite:nth-child(572) {
+    display: none; }
+  .sprite:nth-child(573) {
+    display: none; }
+  .sprite:nth-child(574) {
+    display: none; }
+  .sprite:nth-child(575) {
+    display: none; }
+  .sprite:nth-child(576) {
+    display: none; }
+  .sprite:nth-child(577) {
+    display: none; }
+  .sprite:nth-child(578) {
+    display: none; }
+  .sprite:nth-child(579) {
+    display: none; }
+  .sprite:nth-child(580) {
+    display: none; }
+  .sprite:nth-child(581) {
+    display: none; }
+  .sprite:nth-child(582) {
+    display: none; }
+  .sprite:nth-child(583) {
+    display: none; }
+  .sprite:nth-child(584) {
+    display: none; }
+  .sprite:nth-child(585) {
+    display: none; }
+  .sprite:nth-child(586) {
+    display: none; }
+  .sprite:nth-child(587) {
+    display: none; }
+  .sprite:nth-child(588) {
+    display: none; }
+  .sprite:nth-child(589) {
+    display: none; }
+  .sprite:nth-child(590) {
+    display: none; }
+  .sprite:nth-child(591) {
+    display: none; }
+  .sprite:nth-child(592) {
+    display: none; }
+  .sprite:nth-child(593) {
+    display: none; }
+  .sprite:nth-child(594) {
+    display: none; }
+  .sprite:nth-child(595) {
+    display: none; }
+  .sprite:nth-child(596) {
+    display: none; }
+  .sprite:nth-child(597) {
+    display: none; }
+  .sprite:nth-child(598) {
+    display: none; }
+  .sprite:nth-child(599) {
+    display: none; }
+  .sprite:nth-child(600) {
+    display: none; }
+  .sprite:nth-child(601) {
+    display: none; }
+  .sprite:nth-child(602) {
+    display: none; }
+  .sprite:nth-child(603) {
+    display: none; }
+  .sprite:nth-child(604) {
+    display: none; }
+  .sprite:nth-child(605) {
+    display: none; }
+  .sprite:nth-child(606) {
+    display: none; }
+  .sprite:nth-child(607) {
+    display: none; }
+  .sprite:nth-child(608) {
+    display: none; }
+  .sprite:nth-child(609) {
+    display: none; }
+  .sprite:nth-child(610) {
+    display: none; }
+  .sprite:nth-child(611) {
+    display: none; }
+  .sprite:nth-child(612) {
+    display: none; }
+  .sprite:nth-child(613) {
+    display: none; }
+  .sprite:nth-child(614) {
+    display: none; }
+  .sprite:nth-child(615) {
+    display: none; }
+  .sprite:nth-child(616) {
+    display: none; }
+  .sprite:nth-child(617) {
+    display: none; }
+  .sprite:nth-child(618) {
+    display: none; }
+  .sprite:nth-child(619) {
+    display: none; }
+  .sprite:nth-child(620) {
+    display: none; }
+  .sprite:nth-child(621) {
+    display: none; }
+  .sprite:nth-child(622) {
+    display: none; }
+  .sprite:nth-child(623) {
+    display: none; }
+  .sprite:nth-child(624) {
+    display: none; }
+  .sprite:nth-child(625) {
+    display: none; }
+  .sprite:nth-child(626) {
+    display: none; }
+  .sprite:nth-child(627) {
+    display: none; }
+  .sprite:nth-child(628) {
+    display: none; }
+  .sprite:nth-child(629) {
+    display: none; }
+  .sprite:nth-child(630) {
+    display: none; }
+  .sprite:nth-child(631) {
+    display: none; }
+  .sprite:nth-child(632) {
+    display: none; }
+  .sprite:nth-child(633) {
+    display: none; }
+  .sprite:nth-child(634) {
+    display: none; }
+  .sprite:nth-child(635) {
+    display: none; }
+  .sprite:nth-child(636) {
+    display: none; }
+  .sprite:nth-child(637) {
+    display: none; }
+  .sprite:nth-child(638) {
+    display: none; }
+  .sprite:nth-child(639) {
+    display: none; }
+  .sprite:nth-child(640) {
+    display: none; }
+  .sprite:nth-child(641) {
+    display: none; }
+  .sprite:nth-child(642) {
+    display: none; }
+  .sprite:nth-child(643) {
+    display: none; }
+  .sprite:nth-child(644) {
+    display: none; }
+  .sprite:nth-child(645) {
+    display: none; }
+  .sprite:nth-child(646) {
+    display: none; }
+  .sprite:nth-child(647) {
+    display: none; }
+  .sprite:nth-child(648) {
+    display: none; }
+  .sprite:nth-child(649) {
+    display: none; }
+  .sprite:nth-child(650) {
+    display: none; }
+  .sprite:nth-child(651) {
+    display: none; }
+  .sprite:nth-child(652) {
+    display: none; }
+  .sprite:nth-child(653) {
+    display: none; }
+  .sprite:nth-child(654) {
+    display: none; }
+  .sprite:nth-child(655) {
+    display: none; }
+  .sprite:nth-child(656) {
+    display: none; }
+  .sprite:nth-child(657) {
+    display: none; }
+  .sprite:nth-child(658) {
+    display: none; }
+  .sprite:nth-child(659) {
+    display: none; }
+  .sprite:nth-child(660) {
+    display: none; }
+  .sprite:nth-child(661) {
+    display: none; }
+  .sprite:nth-child(662) {
+    display: none; }
+  .sprite:nth-child(663) {
+    display: none; }
+  .sprite:nth-child(664) {
+    display: none; }
+  .sprite:nth-child(665) {
+    display: none; }
+  .sprite:nth-child(666) {
+    display: none; }
+  .sprite:nth-child(667) {
+    display: none; }
+  .sprite:nth-child(668) {
+    display: none; }
+  .sprite:nth-child(669) {
+    display: none; }
+  .sprite:nth-child(670) {
+    display: none; }
+  .sprite:nth-child(671) {
+    display: none; }
+  .sprite:nth-child(672) {
+    display: none; }
+  .sprite:nth-child(673) {
+    display: none; }
+  .sprite:nth-child(674) {
+    display: none; }
+  .sprite:nth-child(675) {
+    display: none; }
+  .sprite:nth-child(676) {
+    display: none; }
+  .sprite:nth-child(677) {
+    display: none; }
+  .sprite:nth-child(678) {
+    display: none; }
+  .sprite:nth-child(679) {
+    display: none; }
+  .sprite:nth-child(680) {
+    display: none; }
+  .sprite:nth-child(681) {
+    display: none; }
+  .sprite:nth-child(682) {
+    display: none; }
+  .sprite:nth-child(683) {
+    display: none; }
+  .sprite:nth-child(684) {
+    display: none; }
+  .sprite:nth-child(685) {
+    display: none; }
+  .sprite:nth-child(686) {
+    display: none; }
+  .sprite:nth-child(687) {
+    display: none; }
+  .sprite:nth-child(688) {
+    display: none; }
+  .sprite:nth-child(689) {
+    display: none; }
+  .sprite:nth-child(690) {
+    display: none; }
+  .sprite:nth-child(691) {
+    display: none; }
+  .sprite:nth-child(692) {
+    display: none; }
+  .sprite:nth-child(693) {
+    display: none; }
+  .sprite:nth-child(694) {
+    display: none; }
+  .sprite:nth-child(695) {
+    display: none; }
+  .sprite:nth-child(696) {
+    display: none; }
+  .sprite:nth-child(697) {
+    display: none; }
+  .sprite:nth-child(698) {
+    display: none; }
+  .sprite:nth-child(699) {
+    display: none; }
+  .sprite:nth-child(700) {
+    display: none; }
+  .sprite:nth-child(701) {
+    display: none; }
+  .sprite:nth-child(702) {
+    display: none; }
+  .sprite:nth-child(703) {
+    display: none; }
+  .sprite:nth-child(704) {
+    display: none; }
+  .sprite:nth-child(705) {
+    display: none; }
+  .sprite:nth-child(706) {
+    display: none; }
+  .sprite:nth-child(707) {
+    display: none; }
+  .sprite:nth-child(708) {
+    display: none; }
+  .sprite:nth-child(709) {
+    display: none; }
+  .sprite:nth-child(710) {
+    display: none; }
+  .sprite:nth-child(711) {
+    display: none; }
+  .sprite:nth-child(712) {
+    display: none; }
+  .sprite:nth-child(713) {
+    display: none; }
+  .sprite:nth-child(714) {
+    display: none; }
+  .sprite:nth-child(715) {
+    display: none; }
+  .sprite:nth-child(716) {
+    display: none; }
+  .sprite:nth-child(717) {
+    display: none; }
+  .sprite:nth-child(718) {
+    display: none; }
+  .sprite:nth-child(719) {
+    display: none; }
+  .sprite:nth-child(720) {
+    display: none; }
+  .sprite:nth-child(721) {
+    display: none; }
+  .sprite:nth-child(722) {
+    display: none; }
+  .sprite:nth-child(723) {
+    display: none; }
+  .sprite:nth-child(724) {
+    display: none; }
+  .sprite:nth-child(725) {
+    display: none; }
+  .sprite:nth-child(726) {
+    display: none; }
+  .sprite:nth-child(727) {
+    display: none; }
+  .sprite:nth-child(728) {
+    display: none; }
+  .sprite:nth-child(729) {
+    display: none; }
+  .sprite:nth-child(730) {
+    display: none; }
+  .sprite:nth-child(731) {
+    display: none; }
+  .sprite:nth-child(732) {
+    display: none; }
+  .sprite:nth-child(733) {
+    display: none; }
+  .sprite:nth-child(734) {
+    display: none; }
+  .sprite:nth-child(735) {
+    display: none; }
+  .sprite:nth-child(736) {
+    display: none; }
+  .sprite:nth-child(737) {
+    display: none; }
+  .sprite:nth-child(738) {
+    display: none; }
+  .sprite:nth-child(739) {
+    display: none; }
+  .sprite:nth-child(740) {
+    display: none; }
+  .sprite:nth-child(741) {
+    display: none; }
+  .sprite:nth-child(742) {
+    display: none; }
+  .sprite:nth-child(743) {
+    display: none; }
+  .sprite:nth-child(744) {
+    display: none; }
+  .sprite:nth-child(745) {
+    display: none; }
+  .sprite:nth-child(746) {
+    display: none; }
+  .sprite:nth-child(747) {
+    display: none; }
+  .sprite:nth-child(748) {
+    display: none; }
+  .sprite:nth-child(749) {
+    display: none; }
+  .sprite:nth-child(750) {
+    display: none; }
+  .sprite:nth-child(751) {
+    display: none; }
+  .sprite:nth-child(752) {
+    display: none; }
+  .sprite:nth-child(753) {
+    display: none; }
+  .sprite:nth-child(754) {
+    display: none; }
+  .sprite:nth-child(755) {
+    display: none; }
+  .sprite:nth-child(756) {
+    display: none; }
+  .sprite:nth-child(757) {
+    display: none; }
+  .sprite:nth-child(758) {
+    display: none; }
+  .sprite:nth-child(759) {
+    display: none; }
+  .sprite:nth-child(760) {
+    display: none; }
+  .sprite:nth-child(761) {
+    display: none; }
+  .sprite:nth-child(762) {
+    display: none; }
+  .sprite:nth-child(763) {
+    display: none; }
+  .sprite:nth-child(764) {
+    display: none; }
+  .sprite:nth-child(765) {
+    display: none; }
+  .sprite:nth-child(766) {
+    display: none; }
+  .sprite:nth-child(767) {
+    display: none; }
+  .sprite:nth-child(768) {
+    display: none; }
+  .sprite:nth-child(769) {
+    display: none; }
+  .sprite:nth-child(770) {
+    display: none; }
+  .sprite:nth-child(771) {
+    display: none; }
+  .sprite:nth-child(772) {
+    display: none; }
+  .sprite:nth-child(773) {
+    display: none; }
+  .sprite:nth-child(774) {
+    display: none; }
+  .sprite:nth-child(775) {
+    display: none; }
+  .sprite:nth-child(776) {
+    display: none; }
+  .sprite:nth-child(777) {
+    display: none; }
+  .sprite:nth-child(778) {
+    display: none; }
+  .sprite:nth-child(779) {
+    display: none; }
+  .sprite:nth-child(780) {
+    display: none; }
+  .sprite:nth-child(781) {
+    display: none; }
+  .sprite:nth-child(782) {
+    display: none; }
+  .sprite:nth-child(783) {
+    display: none; }
+  .sprite:nth-child(784) {
+    display: none; }
+  .sprite:nth-child(785) {
+    display: none; }
+  .sprite:nth-child(786) {
+    display: none; }
+  .sprite:nth-child(787) {
+    display: none; }
+  .sprite:nth-child(788) {
+    display: none; }
+  .sprite:nth-child(789) {
+    display: none; }
+  .sprite:nth-child(790) {
+    display: none; }
+  .sprite:nth-child(791) {
+    display: none; }
+  .sprite:nth-child(792) {
+    display: none; }
+  .sprite:nth-child(793) {
+    display: none; }
+  .sprite:nth-child(794) {
+    display: none; }
+  .sprite:nth-child(795) {
+    display: none; }
+  .sprite:nth-child(796) {
+    display: none; }
+  .sprite:nth-child(797) {
+    display: none; }
+  .sprite:nth-child(798) {
+    display: none; }
+  .sprite:nth-child(799) {
+    display: none; }
+  .sprite:nth-child(800) {
+    display: none; }
+  .sprite:nth-child(801) {
+    display: none; }
+  .sprite:nth-child(802) {
+    display: none; }
+  .sprite:nth-child(803) {
+    display: none; }
+  .sprite:nth-child(804) {
+    display: none; }
+  .sprite:nth-child(805) {
+    display: none; }
+  .sprite:nth-child(806) {
+    display: none; }
+  .sprite:nth-child(807) {
+    display: none; }
+  .sprite:nth-child(808) {
+    display: none; }
+  .sprite:nth-child(809) {
+    display: none; }
+  .sprite:nth-child(810) {
+    display: none; }
+  .sprite:nth-child(811) {
+    display: none; }
+  .sprite:nth-child(812) {
+    display: none; }
+  .sprite:nth-child(813) {
+    display: none; }
+  .sprite:nth-child(814) {
+    display: none; }
+  .sprite:nth-child(815) {
+    display: none; }
+  .sprite:nth-child(816) {
+    display: none; }
+  .sprite:nth-child(817) {
+    display: none; }
+  .sprite:nth-child(818) {
+    display: none; }
+  .sprite:nth-child(819) {
+    display: none; }
+  .sprite:nth-child(820) {
+    display: none; }
+  .sprite:nth-child(821) {
+    display: none; }
+  .sprite:nth-child(822) {
+    display: none; }
+  .sprite:nth-child(823) {
+    display: none; }
+  .sprite:nth-child(824) {
+    display: none; }
+  .sprite:nth-child(825) {
+    display: none; }
+  .sprite:nth-child(826) {
+    display: none; }
+  .sprite:nth-child(827) {
+    display: none; }
+  .sprite:nth-child(828) {
+    display: none; }
+  .sprite:nth-child(829) {
+    display: none; }
+  .sprite:nth-child(830) {
+    display: none; }
+  .sprite:nth-child(831) {
+    display: none; }
+  .sprite:nth-child(832) {
+    display: none; }
+  .sprite:nth-child(833) {
+    display: none; }
+  .sprite:nth-child(834) {
+    display: none; }
+  .sprite:nth-child(835) {
+    display: none; }
+  .sprite:nth-child(836) {
+    display: none; }
+  .sprite:nth-child(837) {
+    display: none; }
+  .sprite:nth-child(838) {
+    display: none; }
+  .sprite:nth-child(839) {
+    display: none; }
+  .sprite:nth-child(840) {
+    display: none; }
+  .sprite:nth-child(841) {
+    display: none; }
+  .sprite:nth-child(842) {
+    display: none; }
+  .sprite:nth-child(843) {
+    display: none; }
+  .sprite:nth-child(844) {
+    display: none; }
+  .sprite:nth-child(845) {
+    display: none; }
+  .sprite:nth-child(846) {
+    display: none; }
+  .sprite:nth-child(847) {
+    display: none; }
+  .sprite:nth-child(848) {
+    display: none; }
+  .sprite:nth-child(849) {
+    display: none; }
+  .sprite:nth-child(850) {
+    display: none; }
+  .sprite:nth-child(851) {
+    display: none; }
+  .sprite:nth-child(852) {
+    display: none; }
+  .sprite:nth-child(853) {
+    display: none; }
+  .sprite:nth-child(854) {
+    display: none; }
+  .sprite:nth-child(855) {
+    display: none; }
+  .sprite:nth-child(856) {
+    display: none; }
+  .sprite:nth-child(857) {
+    display: none; }
+  .sprite:nth-child(858) {
+    display: none; }
+  .sprite:nth-child(859) {
+    display: none; }
+  .sprite:nth-child(860) {
+    display: none; }
+  .sprite:nth-child(861) {
+    display: none; }
+  .sprite:nth-child(862) {
+    display: none; }
+  .sprite:nth-child(863) {
+    display: none; }
+  .sprite:nth-child(864) {
+    display: none; }
+  .sprite:nth-child(865) {
+    display: none; }
+  .sprite:nth-child(866) {
+    display: none; }
+  .sprite:nth-child(867) {
+    display: none; }
+  .sprite:nth-child(868) {
+    display: none; }
+  .sprite:nth-child(869) {
+    display: none; }
+  .sprite:nth-child(870) {
+    display: none; }
+  .sprite:nth-child(871) {
+    display: none; }
+  .sprite:nth-child(872) {
+    display: none; }
+  .sprite:nth-child(873) {
+    display: none; }
+  .sprite:nth-child(874) {
+    display: none; }
+  .sprite:nth-child(875) {
+    display: none; }
+  .sprite:nth-child(876) {
+    display: none; }
+  .sprite:nth-child(877) {
+    display: none; }
+  .sprite:nth-child(878) {
+    display: none; }
+  .sprite:nth-child(879) {
+    display: none; }
+  .sprite:nth-child(880) {
+    display: none; }
+  .sprite:nth-child(881) {
+    display: none; }
+  .sprite:nth-child(882) {
+    display: none; }
+  .sprite:nth-child(883) {
+    display: none; }
+  .sprite:nth-child(884) {
+    display: none; }
+  .sprite:nth-child(885) {
+    display: none; }
+  .sprite:nth-child(886) {
+    display: none; }
+  .sprite:nth-child(887) {
+    display: none; }
+  .sprite:nth-child(888) {
+    display: none; }
+  .sprite:nth-child(889) {
+    display: none; }
+  .sprite:nth-child(890) {
+    display: none; }
+  .sprite:nth-child(891) {
+    display: none; }
+  .sprite:nth-child(892) {
+    display: none; }
+  .sprite:nth-child(893) {
+    display: none; }
+  .sprite:nth-child(894) {
+    display: none; }
+  .sprite:nth-child(895) {
+    display: none; }
+  .sprite:nth-child(896) {
+    display: none; }
+  .sprite:nth-child(897) {
+    display: none; }
+  .sprite:nth-child(898) {
+    display: none; }
+  .sprite:nth-child(899) {
+    display: none; }
+  .sprite:nth-child(900) {
+    display: none; }
+  .sprite:nth-child(901) {
+    display: none; }
+  .sprite:nth-child(902) {
+    display: none; }
+  .sprite:nth-child(903) {
+    display: none; }
+  .sprite:nth-child(904) {
+    display: none; }
+  .sprite:nth-child(905) {
+    display: none; }
+  .sprite:nth-child(906) {
+    display: none; }
+  .sprite:nth-child(907) {
+    display: none; }
+  .sprite:nth-child(908) {
+    display: none; }
+  .sprite:nth-child(909) {
+    display: none; }
+  .sprite:nth-child(910) {
+    display: none; }
+  .sprite:nth-child(911) {
+    display: none; }
+  .sprite:nth-child(912) {
+    display: none; }
+  .sprite:nth-child(913) {
+    display: none; }
+  .sprite:nth-child(914) {
+    display: none; }
+  .sprite:nth-child(915) {
+    display: none; }
+  .sprite:nth-child(916) {
+    display: none; }
+  .sprite:nth-child(917) {
+    display: none; }
+  .sprite:nth-child(918) {
+    display: none; }
+  .sprite:nth-child(919) {
+    display: none; }
+  .sprite:nth-child(920) {
+    display: none; }
+  .sprite:nth-child(921) {
+    display: none; }
+  .sprite:nth-child(922) {
+    display: none; }
+  .sprite:nth-child(923) {
+    display: none; }
+  .sprite:nth-child(924) {
+    display: none; }
+  .sprite:nth-child(925) {
+    display: none; }
+  .sprite:nth-child(926) {
+    display: none; }
+  .sprite:nth-child(927) {
+    display: none; }
+  .sprite:nth-child(928) {
+    display: none; }
+  .sprite:nth-child(929) {
+    display: none; }
+  .sprite:nth-child(930) {
+    display: none; }
+  .sprite:nth-child(931) {
+    display: none; }
+  .sprite:nth-child(932) {
+    display: none; }
+  .sprite:nth-child(933) {
+    display: none; }
+  .sprite:nth-child(934) {
+    display: none; }
+  .sprite:nth-child(935) {
+    display: none; }
+  .sprite:nth-child(936) {
+    display: none; }
+  .sprite:nth-child(937) {
+    display: none; }
+  .sprite:nth-child(938) {
+    display: none; }
+  .sprite:nth-child(939) {
+    display: none; }
+  .sprite:nth-child(940) {
+    display: none; }
+  .sprite:nth-child(941) {
+    display: none; }
+  .sprite:nth-child(942) {
+    display: none; }
+  .sprite:nth-child(943) {
+    display: none; }
+  .sprite:nth-child(944) {
+    display: none; }
+  .sprite:nth-child(945) {
+    display: none; }
+  .sprite:nth-child(946) {
+    display: none; }
+  .sprite:nth-child(947) {
+    display: none; }
+  .sprite:nth-child(948) {
+    display: none; }
+  .sprite:nth-child(949) {
+    display: none; }
+  .sprite:nth-child(950) {
+    display: none; }
+  .sprite:nth-child(951) {
+    display: none; }
+  .sprite:nth-child(952) {
+    display: none; }
+  .sprite:nth-child(953) {
+    display: none; }
+  .sprite:nth-child(954) {
+    display: none; }
+  .sprite:nth-child(955) {
+    display: none; }
+  .sprite:nth-child(956) {
+    display: none; }
+  .sprite:nth-child(957) {
+    display: none; }
+  .sprite:nth-child(958) {
+    display: none; }
+  .sprite:nth-child(959) {
+    display: none; }
+  .sprite:nth-child(960) {
+    display: none; }
+  .sprite:nth-child(961) {
+    display: none; }
+  .sprite:nth-child(962) {
+    display: none; }
+  .sprite:nth-child(963) {
+    display: none; }
+  .sprite:nth-child(964) {
+    display: none; }
+  .sprite:nth-child(965) {
+    display: none; }
+  .sprite:nth-child(966) {
+    display: none; }
+  .sprite:nth-child(967) {
+    display: none; }
+  .sprite:nth-child(968) {
+    display: none; }
+  .sprite:nth-child(969) {
+    display: none; }
+  .sprite:nth-child(970) {
+    display: none; }
+  .sprite:nth-child(971) {
+    display: none; }
+  .sprite:nth-child(972) {
+    display: none; }
+  .sprite:nth-child(973) {
+    display: none; }
+  .sprite:nth-child(974) {
+    display: none; }
+  .sprite:nth-child(975) {
+    display: none; }
+  .sprite:nth-child(976) {
+    display: none; }
+  .sprite:nth-child(977) {
+    display: none; }
+  .sprite:nth-child(978) {
+    display: none; }
+  .sprite:nth-child(979) {
+    display: none; }
+  .sprite:nth-child(980) {
+    display: none; }
+  .sprite:nth-child(981) {
+    display: none; }
+  .sprite:nth-child(982) {
+    display: none; }
+  .sprite:nth-child(983) {
+    display: none; }
+  .sprite:nth-child(984) {
+    display: none; }
+  .sprite:nth-child(985) {
+    display: none; }
+  .sprite:nth-child(986) {
+    display: none; }
+  .sprite:nth-child(987) {
+    display: none; }
+  .sprite:nth-child(988) {
+    display: none; }
+  .sprite:nth-child(989) {
+    display: none; }
+  .sprite:nth-child(990) {
+    display: none; }
+  .sprite:nth-child(991) {
+    display: none; }
+  .sprite:nth-child(992) {
+    display: none; }
+  .sprite:nth-child(993) {
+    display: none; }
+  .sprite:nth-child(994) {
+    display: none; }
+  .sprite:nth-child(995) {
+    display: none; }
+  .sprite:nth-child(996) {
+    display: none; }
+  .sprite:nth-child(997) {
+    display: none; }
+  .sprite:nth-child(998) {
+    display: none; }
+  .sprite:nth-child(999) {
+    display: none; }
+  .sprite:nth-child(1000) {
+    display: none; }
+  .sprite:nth-child(1001) {
+    display: none; }
+
+/*# sourceMappingURL=main.css.map */
